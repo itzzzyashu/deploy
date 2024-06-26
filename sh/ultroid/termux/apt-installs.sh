@@ -1,8 +1,11 @@
-sudo apt update && apt upgrade -y
-sudo apt install curl -y
-sudo apt install git -y
-sudo apt install clang -y
-sudo apt install cmake -y
-sudo apt install python3 -y
-sudo apt install python3-pip -y
-sudo apt install nano -y
+echo "Have patience until we setup apt packages required for deployment, starting in 3 seconds..."
+sleep 3
+apt update && apt upgrade -y
+apt install curl -y
+apt install git -y
+apt install clang -y
+apt install cmake -y
+apt install python3 -y
+apt install python3-pip -y
+apt install nano -y
+echo "apt requirements has been installed."
