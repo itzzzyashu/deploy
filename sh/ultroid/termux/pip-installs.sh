@@ -9,4 +9,4 @@ pip install pytgcalls==2.1.0 --no-deps
 playwright install-deps
 playwright install
 
-echo "Requirements as installed successfully"
+echo "Requirements have been installed successfully"
