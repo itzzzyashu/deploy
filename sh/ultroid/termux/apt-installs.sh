@@ -8,4 +8,4 @@ apt install cmake -y
 apt install python3 -y
 apt install python3-pip -y
 apt install nano -y
-echo "apt requirements has been installed."
+echo "apt requirements are successfully installed."
